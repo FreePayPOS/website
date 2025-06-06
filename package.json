@@ -4,11 +4,11 @@
   "description": "FreePay POS - The world's only fee-free, open-source POS terminal website",
   "main": "index.html",
   "scripts": {
-    "start": "npx live-server --port=3000 --open=/index.html --no-css-inject",
-    "dev": "npx live-server --port=3000 --open=/index.html",
+    "start": "npx live-server --port=3200 --open=/index.html --no-css-inject",
+    "dev": "npx live-server --port=3200 --open=/index.html",
     "build": "echo 'No build process needed for static site'",
     "test": "echo 'No tests configured yet'",
-    "serve": "npx http-server -p 3000 -o",
+    "serve": "npx http-server -p 3200 -o",
     "deploy": "echo 'Deployment script would go here'"
   },
   "keywords": [
