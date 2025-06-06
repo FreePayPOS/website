@@ -4,21 +4,21 @@
       "name": "Ambire",
       "status": "incompatible",
       "description": "App opens but nothing happens. Support request sent to add support.",
-      "lastTested": "2024-01",
-      "issues": ["No response to transactions", "Support request pending"]
+      "lastTested": "2025-06-06",
+      "issues": ["No response to transactions"]
     },
     {
       "name": "Argent",
       "status": "incompatible",
       "description": "App opens but nothing happens.",
-      "lastTested": "2024-01",
+      "lastTested": "2025-06-06",
       "issues": ["No response to transactions"]
     },
     {
       "name": "Coinbase",
       "status": "compatible",
       "description": "Works correctly with FreePay app.",
-      "lastTested": "2024-01",
+      "lastTested": "2025-06-06",
       "issues": []
     },
     {
@@ -32,22 +32,22 @@
       "name": "Exodus",
       "status": "issues",
       "description": "Opens, but value does not take decimals into account, and opens Ethereum instead of the L2 network. Bug report sent through support.",
-      "lastTested": "2024-01",
-      "issues": ["Decimal handling incorrect", "Wrong network selection", "Bug report submitted"]
+      "lastTested": "2025-06-06",
+      "issues": ["Decimal handling incorrect", "Wrong network selection"]
     },
     {
       "name": "MetaMask",
       "status": "issues",
       "description": "Sometimes works, but send button is often disabled. Bug report sent through GitHub.",
-      "lastTested": "2024-01",
+      "lastTested": "2025-06-06",
       "issues": ["Intermittent send button issues", "Bug report submitted"]
     },
     {
       "name": "Rainbow",
       "status": "issues",
       "description": "Works but gets stuck loading gas/USD values. Bug report sent through GitHub.",
-      "lastTested": "2024-01",
-      "issues": ["Gas calculation loading issues", "USD value loading problems", "Bug report submitted"]
+      "lastTested": "2025-06-06",
+      "issues": ["Gas calculation loading issues", "USD value loading problems"]
     }
   ],
   "lastUpdated": "2024-01-15",
