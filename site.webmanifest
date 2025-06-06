@@ -1,6 +1,6 @@
 {
-    "name": "FreePay POS - Fee-Free Digital Wallet POS Terminal",
-    "short_name": "FreePay POS",
+      "name": "FreePay - Fee-Free Digital Wallet Point of Sale Device",
+  "short_name": "FreePay",
     "description": "The world's only fee-free, open-source POS terminal compatible with digital wallets",
     "start_url": "/",
     "display": "standalone",
