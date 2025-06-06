@@ -1,0 +1,50 @@
+{
+    "name": "FreePay POS - Fee-Free Digital Wallet POS Terminal",
+    "short_name": "FreePay POS",
+    "description": "The world's only fee-free, open-source POS terminal compatible with digital wallets",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": ["business", "finance", "productivity"],
+    "lang": "en-US",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "FreePay POS desktop view showing wallet compatibility"
+        },
+        {
+            "src": "/screenshot-mobile.png",
+            "sizes": "390x844",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "FreePay POS mobile view with responsive design"
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false
+} 

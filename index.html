@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FreePay POS - The world's only fee-free, open-source POS terminal compatible with digital wallets. View wallet compatibility and get started today.">
+    <meta name="keywords" content="POS terminal, fee-free, open source, digital wallets, digital payments, FreePay, cryptocurrency, blockchain, payment processing">
+    <meta name="author" content="FreePay POS Team">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://freepay-pos.com/">
+    <meta property="og:title" content="FreePay POS - The World's Only Fee-Free POS Terminal">
+    <meta property="og:description" content="Completely open source POS terminal compatible with digital wallets. No fees, no restrictions.">
+    <meta property="og:image" content="https://freepay-pos.com/images/freepay-social.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://freepay-pos.com/">
+    <meta property="twitter:title" content="FreePay POS - The World's Only Fee-Free POS Terminal">
+    <meta property="twitter:description" content="Completely open source POS terminal compatible with digital wallets. No fees, no restrictions.">
+    <meta property="twitter:image" content="https://freepay-pos.com/images/freepay-social.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>FreePay POS - The World's Only Fee-Free POS Terminal</title>
+    
+    <!-- Performance optimizations -->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="preload" href="js/main.js" as="script">
+    <link rel="preload" href="data/wallets.json" as="fetch" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Critical font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FreePay POS",
+      "description": "The world's only fee-free, open-source POS terminal compatible with digital wallets",
+      "url": "https://freepay-pos.com",
+      "author": {
+        "@type": "Organization",
+        "name": "FreePay POS Team"
+      },
+      "operatingSystem": "Any",
+      "applicationCategory": "BusinessApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>FreePay POS</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu" role="menubar">
+                <a href="#home" class="nav-link" role="menuitem">Home</a>
+                <a href="#compatibility" class="nav-link" role="menuitem">Wallet Compatibility</a>
+                <a href="#features" class="nav-link" role="menuitem">Features</a>
+                <a href="#getting-started" class="nav-link" role="menuitem">Getting Started</a>
+                <a href="#developers" class="nav-link" role="menuitem">Developers</a>
+                <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="banner">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">The World's Only Fee-Free POS Terminal</h1>
+                    <p class="hero-subtitle">Completely open source. Compatible with digital wallets.</p>
+                    <div class="hero-buttons">
+                        <a href="#compatibility" class="btn btn-primary" aria-describedby="compatibility-desc">View Wallet Compatibility</a>
+                        <a href="#getting-started" class="btn btn-secondary" aria-describedby="getting-started-desc">Get Started</a>
+                    </div>
+                    <div class="sr-only">
+                        <span id="compatibility-desc">View which digital wallets are compatible with FreePay POS</span>
+                        <span id="getting-started-desc">Learn how to set up and use FreePay POS</span>
+                    </div>
+                </div>
+                <div class="hero-visual" role="img" aria-label="FreePay POS terminal mockup">
+                    <div class="pos-mockup">
+                        <div class="screen">
+                            <div class="display">FreePay POS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Wallet Compatibility Section -->
+    <section id="compatibility" class="compatibility">
+        <div class="container">
+            <h2 class="section-title">Wallet Compatibility</h2>
+            <p class="section-subtitle">See which digital wallets work with FreePay POS</p>
+            
+            <!-- Status Legend -->
+            <div class="status-legend">
+                <div class="legend-item">
+                    <span class="status-indicator compatible"></span>
+                    <span>Works with FreePay app</span>
+                </div>
+                <div class="legend-item">
+                    <span class="status-indicator native"></span>
+                    <span>Works natively (future)</span>
+                </div>
+                <div class="legend-item">
+                    <span class="status-indicator issues"></span>
+                    <span>Has known issues</span>
+                </div>
+                <div class="legend-item">
+                    <span class="status-indicator incompatible"></span>
+                    <span>Doesn't work currently</span>
+                </div>
+            </div>
+
+            <!-- Search and Filter Controls -->
+            <div class="table-controls" role="search" aria-label="Wallet search and filter">
+                <label for="wallet-search" class="sr-only">Search wallets</label>
+                <input type="text" id="wallet-search" placeholder="Search wallets..." class="search-input" aria-describedby="search-help">
+                <span id="search-help" class="sr-only">Search by wallet name or description</span>
+                
+                <label for="status-filter" class="sr-only">Filter by status</label>
+                <select id="status-filter" class="status-filter" aria-describedby="filter-help">
+                    <option value="">All Statuses</option>
+                    <option value="compatible">Compatible</option>
+                    <option value="issues">Has Issues</option>
+                    <option value="incompatible">Incompatible</option>
+                </select>
+                <span id="filter-help" class="sr-only">Filter wallets by compatibility status</span>
+            </div>
+
+            <!-- Compatibility Table -->
+            <div class="table-container">
+                <table id="compatibility-table" class="compatibility-table" role="table" aria-label="Wallet compatibility information">
+                    <caption class="sr-only">Digital wallet compatibility with FreePay POS. Table shows wallet names, compatibility status, descriptions, and last test dates.</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" tabindex="0" role="columnheader" aria-sort="none">Wallet</th>
+                            <th scope="col" tabindex="0" role="columnheader" aria-sort="none">Status</th>
+                            <th scope="col" tabindex="0" role="columnheader" aria-sort="none">Description</th>
+                            <th scope="col" tabindex="0" role="columnheader" aria-sort="none">Last Tested</th>
+                        </tr>
+                    </thead>
+                    <tbody id="wallet-table-body">
+                        <!-- Wallet data will be loaded here via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="compatibility-cta">
+                <p>Want to make your wallet compatible?</p>
+                <a href="#contact" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose FreePay POS?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>100% Fee-Free</h3>
+                    <p>No transaction fees, monthly charges, or hidden costs. Keep more of your earnings.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔓</div>
+                    <h3>Open Source</h3>
+                    <p>Completely transparent code. Audit, modify, and contribute to the platform.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Digital Wallet Ready</h3>
+                    <p>Accept payments from popular digital wallets with seamless integration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast & Reliable</h3>
+                    <p>Lightning-fast transactions with enterprise-grade reliability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Easy Setup</h3>
+                    <p>Boot directly from microSD card. No complex installation required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Community Driven</h3>
+                    <p>Powered by developers and businesses worldwide. Join the movement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Getting Started Section -->
+    <section id="getting-started" class="getting-started">
+        <div class="container">
+            <h2 class="section-title">Getting Started</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Download FreePay POS</h3>
+                    <p>Get the latest version from our GitHub repository.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Flash to microSD</h3>
+                    <p>Write the image to a microSD card using your preferred tool.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Boot & Configure</h3>
+                    <p>Insert the card and power on. The system boots directly into the app.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Start Accepting Payments</h3>
+                    <p>Connect compatible wallets and begin processing transactions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="developers">
+        <div class="container">
+            <h2 class="section-title">For Developers</h2>
+            <div class="dev-content">
+                <div class="dev-info">
+                    <h3>Contribute to FreePay POS</h3>
+                    <p>Help us improve wallet compatibility and add new features to the platform. FreePay POS is built with modern web technologies and welcomes contributions from developers worldwide.</p>
+                    <div class="contribution-areas">
+                        <div class="contrib-area">
+                            <h4>🔗 Wallet Integration</h4>
+                            <ul>
+                                <li>Add support for your digital wallet</li>
+                                <li>Test existing wallet integrations</li>
+                                <li>Report compatibility issues</li>
+                                <li>Improve connection protocols</li>
+                            </ul>
+                        </div>
+                        <div class="contrib-area">
+                            <h4>💻 Platform Development</h4>
+                            <ul>
+                                <li>Enhance the user interface</li>
+                                <li>Optimize performance</li>
+                                <li>Add new features</li>
+                                <li>Improve accessibility</li>
+                            </ul>
+                        </div>
+                        <div class="contrib-area">
+                            <h4>🔒 Security & Testing</h4>
+                            <ul>
+                                <li>Security auditing</li>
+                                <li>Automated testing</li>
+                                <li>Bug fixes and patches</li>
+                                <li>Documentation improvements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dev-links">
+                    <h4>Resources</h4>
+                    <a href="https://github.com/freepay-pos" class="btn btn-outline" target="_blank">
+                        <span>🐙</span> View on GitHub
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <span>📚</span> API Documentation
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <span>📝</span> Contribution Guide
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <span>💬</span> Developer Discord
+                    </a>
+                    <div class="dev-stats">
+                        <div class="stat">
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Wallets Tested</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Fully Compatible</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">Open</span>
+                            <span class="stat-label">Source License</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Developer Quick Start -->
+            <div class="dev-quickstart">
+                <h3>Quick Start for Wallet Developers</h3>
+                <div class="quickstart-steps">
+                    <div class="quickstart-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Clone Repository</h4>
+                            <code>git clone https://github.com/freepay-pos/core.git</code>
+                        </div>
+                    </div>
+                    <div class="quickstart-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Test Integration</h4>
+                            <p>Use our test environment to validate wallet compatibility</p>
+                        </div>
+                    </div>
+                    <div class="quickstart-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Submit PR</h4>
+                            <p>Submit a pull request with your wallet integration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Want to add wallet support?</h3>
+                    <p>We're always looking to expand compatibility. Reach out if you're a wallet developer or want to help test integration.</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="wallet-support">Wallet Support Request</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>FreePay POS</h3>
+                    <p>The world's only fee-free, open-source POS terminal.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#compatibility">Compatibility</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#getting-started">Getting Started</a></li>
+                    </ul>
+                </div>
+                <div class="footer-community">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Contributors</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FreePay POS. Open source and proud of it.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

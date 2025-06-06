@@ -1,0 +1,72 @@
+{
+  "wallets": [
+    {
+      "name": "Ambire",
+      "status": "incompatible",
+      "description": "App opens but nothing happens. Support request sent to add support.",
+      "lastTested": "2024-01",
+      "issues": ["No response to transactions", "Support request pending"]
+    },
+    {
+      "name": "Argent",
+      "status": "incompatible",
+      "description": "App opens but nothing happens.",
+      "lastTested": "2024-01",
+      "issues": ["No response to transactions"]
+    },
+    {
+      "name": "Coinbase",
+      "status": "compatible",
+      "description": "Works correctly with FreePay app.",
+      "lastTested": "2024-01",
+      "issues": []
+    },
+    {
+      "name": "D'cent",
+      "status": "incompatible",
+      "description": "App doesn't appear in 'Select wallet list'.",
+      "lastTested": "2024-01",
+      "issues": ["Not detected in wallet selection"]
+    },
+    {
+      "name": "Exodus",
+      "status": "issues",
+      "description": "Opens, but value does not take decimals into account, and opens Ethereum instead of the L2 network. Bug report sent through support.",
+      "lastTested": "2024-01",
+      "issues": ["Decimal handling incorrect", "Wrong network selection", "Bug report submitted"]
+    },
+    {
+      "name": "MetaMask",
+      "status": "issues",
+      "description": "Sometimes works, but send button is often disabled. Bug report sent through GitHub.",
+      "lastTested": "2024-01",
+      "issues": ["Intermittent send button issues", "Bug report submitted"]
+    },
+    {
+      "name": "Rainbow",
+      "status": "issues",
+      "description": "Works but gets stuck loading gas/USD values. Bug report sent through GitHub.",
+      "lastTested": "2024-01",
+      "issues": ["Gas calculation loading issues", "USD value loading problems", "Bug report submitted"]
+    }
+  ],
+  "lastUpdated": "2024-01-15",
+  "legend": {
+    "compatible": {
+      "color": "#22c55e",
+      "description": "Works with FreePay app"
+    },
+    "native": {
+      "color": "#166534",
+      "description": "Works natively without FreePay app"
+    },
+    "issues": {
+      "color": "#eab308",
+      "description": "Has known issues"
+    },
+    "incompatible": {
+      "color": "#dc2626",
+      "description": "Doesn't work currently"
+    }
+  }
+} 

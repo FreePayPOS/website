@@ -1,0 +1,41 @@
+{
+  "name": "freepay-pos-website",
+  "version": "1.0.0",
+  "description": "FreePay POS - The world's only fee-free, open-source POS terminal website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html --no-css-inject",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests configured yet'",
+    "serve": "npx http-server -p 3000 -o",
+    "deploy": "echo 'Deployment script would go here'"
+  },
+  "keywords": [
+    "pos",
+    "terminal",
+    "fee-free",
+    "open-source",
+    "digital-wallets",
+    "payments",
+    "freepay"
+  ],
+  "author": "FreePay POS Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freepay-pos/website"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "homepage": "https://freepay-pos.com",
+  "bugs": {
+    "url": "https://github.com/freepay-pos/website/issues"
+  }
+} 
