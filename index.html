@@ -12,17 +12,17 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://freepay-pos.com/">
+    <meta property="og:url" content="https://freepaypos.org/">
     <meta property="og:title" content="FreePay - The World's Only Fee-Free Point of Sale Device">
     <meta property="og:description" content="Completely open source point of sale device compatible with digital wallets. No fees, no restrictions.">
-    <meta property="og:image" content="https://freepay.com/images/freepay-social.jpg">
+    <meta property="og:image" content="https://freepaypos.org/images/social.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://freepay.com/">
+    <meta property="twitter:url" content="https://freepaypos.org/">
     <meta property="twitter:title" content="FreePay - The World's Only Fee-Free Point of Sale Device">
     <meta property="twitter:description" content="Completely open source point of sale device compatible with digital wallets. No fees, no restrictions.">
-    <meta property="twitter:image" content="https://freepay.com/images/freepay-social.jpg">
+    <meta property="twitter:image" content="https://freepaypos.org/images/social.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -31,7 +31,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <title>FreePay - The World's Only Fee-Free Point of Sale Device</title>
+    <title>FreePay - The World's Only Open Source, Fee-Free Point of Sale Device</title>
     
     <!-- Performance optimizations -->
     <link rel="preload" href="css/styles.css" as="style">
@@ -55,7 +55,7 @@
       "@type": "SoftwareApplication",
       "name": "FreePay",
       "description": "The world's only fee-free, open-source point of sale device compatible with digital wallets",
-      "url": "https://freepay.com",
+      "url": "https://freepaypos.org",
       "author": {
         "@type": "Organization",
         "name": "FreePay Team"
@@ -308,22 +308,22 @@
                 <div class="step">
                     <div class="step-number">1</div>
                     <h3>Download FreePay</h3>
-                    <p>Get the latest version from our GitHub repository.</p>
+                    <p>Get the latest version from <a href="https://github.com/FreePayPOS/merchant-app">our GitHub repository</a> .</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
-                    <h3>Flash to microSD</h3>
-                    <p>Write the image to a microSD card using your preferred tool.</p>
+                    <h3>Configure Settings</h3>
+                    <p>Configure your wifi and payment address following the docs</p>
                 </div>
                 <div class="step">
                     <div class="step-number">3</div>
-                    <h3>Boot & Configure</h3>
-                    <p>Insert the card and power on. The system boots directly into the app.</p>
+                    <h3>Flash to microSD</h3>
+                    <p>Write the image to a microSD card following the docs.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">4</div>
-                    <h3>Start Accepting Payments</h3>
-                    <p>Connect compatible wallets and begin processing transactions.</p>
+                    <h3>Boot & Configure</h3>
+                    <p>Insert the card into a raspberry pi and power on. The system boots directly into the app.</p>
                 </div>
             </div>
         </div>
@@ -369,16 +369,10 @@
                 </div>
                 <div class="dev-links">
                     <h4>Resources</h4>
-                    <a href="https://github.com/freepay-pos" class="btn btn-outline" target="_blank">
+                    <a href="https://github.com/freepaypos" class="btn btn-outline" target="_blank">
                         <span>🐙</span> View on GitHub
                     </a>
-                    <a href="#" class="btn btn-outline">
-                        <span>📚</span> API Documentation
-                    </a>
-                    <a href="#" class="btn btn-outline">
-                        <span>📝</span> Contribution Guide
-                    </a>
-                    <a href="#" class="btn btn-outline">
+                    <a href="https://discord.com/invite/8JuhjWNafs" class="btn btn-outline">
                         <span>💬</span> Developer Discord
                     </a>
                     <div class="dev-stats">
@@ -396,73 +390,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Developer Quick Start -->
-            <div class="dev-quickstart">
-                <h3>Quick Start for Wallet Developers</h3>
-                <div class="quickstart-steps">
-                    <div class="quickstart-step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Clone Repository</h4>
-                            <code>git clone https://github.com/freepay-pos/core.git</code>
-                        </div>
-                    </div>
-                    <div class="quickstart-step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Test Integration</h4>
-                            <p>Use our test environment to validate wallet compatibility</p>
-                        </div>
-                    </div>
-                    <div class="quickstart-step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Submit PR</h4>
-                            <p>Submit a pull request with your wallet integration</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+            </div>    
+        
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Want to add wallet support?</h3>
-                    <p>We're always looking to expand compatibility. Reach out if you're a wallet developer or want to help test integration.</p>
-                </div>
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <select id="subject" name="subject" required>
-                                <option value="">Select Subject</option>
-                                <option value="wallet-support">Wallet Support Request</option>
-                                <option value="partnership">Partnership Inquiry</option>
-                                <option value="technical">Technical Support</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+  
     </main>
 
     <!-- Footer -->
@@ -486,15 +418,14 @@
                 <div class="footer-community">
                     <h4>Community</h4>
                     <ul>
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Contributors</a></li>
-                        <li><a href="#">Support</a></li>
+                        <li><a href="https://github.com/freepaypos">GitHub</a></li>
+                        <li><a href="https://discord.com/invite/8JuhjWNafs">Discord</a></li>
+                        <li><a href="https://x.com/freepaypos">Twitter</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 FreePay. Open source and proud of it.</p>
+                <p>&copy; 2025 FreePay. Open source and proud of it.</p>
             </div>
         </div>
     </footer>
