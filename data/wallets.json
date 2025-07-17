@@ -4,14 +4,7 @@
       "name": "Ambire",
       "status": "incompatible",
       "description": "App opens but nothing happens. Support request sent to add support.",
-      "lastTested": "2025-06-06",
-      "issues": ["No response to transactions"]
-    },
-    {
-      "name": "Argent",
-      "status": "incompatible",
-      "description": "App opens but nothing happens.",
-      "lastTested": "2025-06-06",
+      "lastTested": "2025-07-17",
       "issues": ["No response to transactions"]
     },
     {
@@ -24,30 +17,72 @@
     {
       "name": "D'cent",
       "status": "incompatible",
-      "description": "App doesn't appear in 'Select wallet list'.",
-      "lastTested": "2024-01",
-      "issues": ["Not detected in wallet selection"]
+      "description": "Doesn't open. Doesn't support ethereum: intents",
+      "lastTested": "2025-07-17",
+      "issues": ["No ERC-681 support"]
+    },
+    {
+      "name": "Daimo",
+      "status": "incompatible",
+      "description": "Doesn't open. Doesn't support ethereum: intents",
+      "lastTested": "2025-07-17",
+      "issues": ["No ERC-681 support"]
     },
     {
       "name": "Exodus",
       "status": "issues",
       "description": "Opens, but value does not take decimals into account, and opens Ethereum instead of the L2 network. Bug report sent through support.",
-      "lastTested": "2025-06-06",
+      "lastTested": "2025-07-17",
       "issues": ["Decimal handling incorrect", "Wrong network selection"]
     },
     {
       "name": "MetaMask",
-      "status": "issues",
+      "status": "compatible",
       "description": "Sometimes works, but send button is often disabled. Bug report sent through GitHub.",
-      "lastTested": "2025-06-06",
-      "issues": ["Intermittent send button issues", "Bug report submitted"]
+      "lastTested": "2025-07-17",
+      "issues": ["Intermittent send button issues"]
     },
+    {
+      "name": "Obvious",
+      "status": "issues",
+      "description": "App opens but nothing happens.",
+      "lastTested": "2025-07-17",
+      "issues": ["No response to transactions"]
+    },
+    {
+      "name": "Phantom",
+      "status": "incompatible",
+      "description": "Doesn't open. Doesn't support ethereum: intents",
+      "lastTested": "2025-07-17",
+      "issues": ["No ERC-681 support"]
+    }, 
     {
       "name": "Rainbow",
       "status": "issues",
       "description": "Works but gets stuck loading gas/USD values. Bug report sent through GitHub.",
-      "lastTested": "2025-06-06",
+      "lastTested": "2025-07-17",
       "issues": ["Gas calculation loading issues", "USD value loading problems"]
+    },
+    {
+      "name": "Ready (prev Argent)",
+      "status": "issues",
+      "description": "App opens but requires user to select tokens manually instead of auto-filling",
+      "lastTested": "2025-07-17",
+      "issues": ["Requires manual selection"]
+    },
+    {
+      "name": "Trust Wallet",
+      "status": "issues",
+      "description": "App opens and destination address is filled but token amount is not filled, and can only send ETH on Ethereum",
+      "lastTested": "2025-07-17",
+      "issues": ["Requires manual selection"]
+    },
+    {
+      "name": "Zerion",
+      "status": "issues",
+      "description": "App opens but requires user to select destination address and tokens manually instead of auto-filling",
+      "lastTested": "2025-07-17",
+      "issues": ["Requires manual selection"]
     }
   ],
   "lastUpdated": "2024-01-15",
