@@ -3,9 +3,9 @@
     {
       "name": "Ambire",
       "status": "incompatible",
-      "description": "App opens but nothing happens. Support request sent to add support.",
+      "description": "App opens but nothing happens.",
       "lastTested": "2025-07-17",
-      "issues": ["No response to transactions"]
+      "issues": ["No ERC-681 support"]
     },
     {
       "name": "Coinbase",
@@ -44,10 +44,18 @@
     },
     {
       "name": "Obvious",
-      "status": "issues",
+      "status": "incompatible",
       "description": "App opens but nothing happens.",
       "lastTested": "2025-07-17",
-      "issues": ["No response to transactions"]
+      "issues": ["No ERC-681 support"]
+    },
+    {
+      "name": "Opera Minipay",
+      "status": "incompatible",
+      "description": "App opens but nothing happens.",
+      "lastTested": "2025-07-30",
+      
+      "issues": ["No ERC-681 support"]
     },
     {
       "name": "Phantom",
